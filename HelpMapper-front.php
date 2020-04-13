@@ -1,30 +1,11 @@
 <html>
 
 <head>
-    <title>Simple Map</title>
+    <title>Simple goole Map</title>
     <meta name="viewport" content="initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
     <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.js"></script>
     <meta charset="utf-8">
-    <style>
-    /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-    #map {
-        height: 100%;
-    }
-
-    /* Optional: Makes the sample page fill the window. */
-    html,
-    body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    </style>
-
-
-
-
 </head>
 
 <body>
@@ -54,7 +35,7 @@ $(document).ready(function() {
             "longitude": "-114.088841"
         }
     ]
-
+    //if backend servie ready
     // $.ajax({ //library for JS help front-end to talk back-end, without having to reload the page
     //   url: "HelpMapper-backend.php",
     //   async: true,
